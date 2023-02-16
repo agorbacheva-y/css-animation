@@ -63,3 +63,7 @@ i {
     from {transform: perspective(300px) rotatex(60deg)}
     to {transform: perspective(none) rotatex(0deg);}
 }
+
+.card a:hover {
+    cursor: grab;
+}
