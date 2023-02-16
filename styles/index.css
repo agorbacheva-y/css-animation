@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: inline-block;
+    max-width: 200px;
+    min-height: 250px;
+    width: 100%;
+    border: 1px solid green;
+
+    justify-content: center;
+    align-items: center;
+}
