@@ -53,6 +53,10 @@ i {
     color: #00425A;
 }
 
+button {
+    background-color: transparent;
+}
+
 /* hover animation */
 .card:hover {
     cursor: pointer;
@@ -64,6 +68,6 @@ i {
     to {transform: perspective(none) rotatex(0deg);}
 }
 
-.card a:hover {
+.card button:hover {
     cursor: grab;
 }
