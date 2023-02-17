@@ -84,3 +84,10 @@ p {
     --animate-delay: 1s;
     --animate-duration: 5s;
 }
+
+/* button */
+button {
+    width: 50px;
+    height: 20px;
+    font-size: 8px;
+}
