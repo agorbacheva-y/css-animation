@@ -13,8 +13,14 @@ body {
 header {
     display: flex;
     justify-content: center;
-    height: 120px;
+    height: 100px;
     margin-top: 20px;
+    align-items: baseline;
+}
+
+i {
+    color: #00425A;
+    margin-left: 15px;
 }
 
 .container {
@@ -27,7 +33,7 @@ header {
 h2 {
     display: flex;
     justify-content: center;
-    height: 75px;
+    height: 60px;
     padding-top: 50px;
 }
 
@@ -49,9 +55,7 @@ h2 {
     font-size: large;
 }
 
-i {
-    color: #00425A;
-}
+
 
 button {
     background-color: transparent;
