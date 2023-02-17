@@ -55,10 +55,14 @@ h2 {
     font-size: large;
 }
 
+.image, p {
+    width: 120px;
+    height: 75px;
+}
 
-
-button {
-    background-color: transparent;
+p {
+    font-size: 10px;
+    overflow: hidden;
 }
 
 /* hover animation */
