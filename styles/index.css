@@ -14,27 +14,29 @@ header {
     display: flex;
     justify-content: center;
     height: 100px;
-    margin-top: 20px;
+    margin: 20px 0;
     align-items: baseline;
 }
 
 i {
     color: #00425A;
     margin-left: 15px;
+    display: inline-block;
 }
 
+/* subheading */
+h2 {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+/* cards */
 .container {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     margin-bottom: 50px;
-}
-
-h2 {
-    display: flex;
-    justify-content: center;
-    height: 60px;
-    padding-top: 50px;
 }
 
 .card {
@@ -75,4 +77,10 @@ p {
 @keyframes cardStand {
     from {transform: perspective(300px) rotatex(60deg)}
     to {transform: perspective(none) rotatex(0deg);}
+}
+
+/* icon animation.css */
+.animate__animated.animate__tada {
+    --animate-delay: 1s;
+    --animate-duration: 5s;
 }
