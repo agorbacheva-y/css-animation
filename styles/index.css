@@ -60,14 +60,11 @@ button {
 /* hover animation */
 .card:hover {
     cursor: pointer;
-    animation: cardFlip 2s ease;
+    animation: cardStand 1.5s ease;
+    animation-fill-mode: forwards;
 }
 
-@keyframes cardFlip {
+@keyframes cardStand {
     from {transform: perspective(300px) rotatex(60deg)}
     to {transform: perspective(none) rotatex(0deg);}
-}
-
-.card button:hover {
-    cursor: grab;
 }
